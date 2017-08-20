@@ -12,3 +12,6 @@ Start with random mysql password:
 [Tutum Lamp Image](https://registry.hub.docker.com/u/tutum/lamp/ "Tutum Lamp Image") allows you to set MYSQL password as an environment variable:
 
 ```docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="SecretPass" feltsecure/owasp-mutillidae```
+
+
+This doker image is insipired by [Nikolay Golub](https://github.com/citizen-stig/dockermutillidae)
